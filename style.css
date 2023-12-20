@@ -119,7 +119,7 @@ body {
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
-  transition: all 0.3s ease; /* Add smooth transition */
+  transition: all 0.3s ease; 
 }
 
 .link:hover {
@@ -127,8 +127,8 @@ body {
   text-decoration-color: black;
   text-decoration-style: solid;
   background: #eefede;
-  transform: scale(1.1); /* Add scale effect on hover for a cooler look */
-  color: #333; /* Darken the text color on hover */
+  transform: scale(1.1); 
+  color: #333; 
   font-weight: bold;
 }
 
@@ -138,7 +138,7 @@ body {
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
-  transition: color 0.3s ease; /* Add a transition to the color property */
+  transition: color 0.3s ease; 
 }
 
 .link:hover {
@@ -154,7 +154,7 @@ body {
 .me {
     display: flex;
     
-    flex-direction: column; /* Change to column layout to stack elements vertically */
+    flex-direction: column; 
     
     background-color: F6F6EB;
     
@@ -166,7 +166,7 @@ body {
     
     justify-content: center;
     
-    align-items: center; /* Center both horizontally and vertically */
+    align-items: center; 
 }
 
 .me-name {
@@ -178,9 +178,9 @@ body {
     
     width: 60%;
     
-    align-items: center; /* Center content vertically */
+    align-items: center; 
     
-    justify-content: center; /* Center content horizontally */
+    justify-content: center; 
     
     font-weight: bold;
     
@@ -198,14 +198,14 @@ body {
     
     width: 85%;
     
-    margin-top: 10px; /* Adjust margin to create space between blue and green boxes */
+    margin-top: 10px; 
     
     color: black;
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Your existing CSS styles here */
+
 
 .lang {
     display: flex;
@@ -218,7 +218,7 @@ body {
     
     align-items: center;
     
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
 
     width: 60%;
 
@@ -240,9 +240,9 @@ body {
     
     align-items: center;
     
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
     
-    margin-top: 20px; /* Add margin for separation */
+    margin-top: 20px; 
 }
 
 .lang-2 img {
@@ -362,25 +362,25 @@ body {
 hr {
     width: 80%;
     height: 2px;
-    background-color: transparent; /* Set the background to transparent */
+    background-color: transparent; 
     position: relative;
 }
 
 hr::before {
     content: "";
     position: absolute;
-    top: -5px; /* Adjust the top position to control the glow distance */
+    top: -5px; 
     left: 0;
     right: 0;
-    height: 10px; /* Adjust the height to control the glow thickness */
-    background: linear-gradient(to right, #eeeeee, #9185ff, #ff6ce7); /* Define your neon colors here */
-    border-radius: 5px; /* Adjust the border radius to control the roundness of the glow */
-    animation: neon 1.5s linear infinite alternate; /* Add a neon animation */
+    height: 10px; 
+    background: linear-gradient(to right, #eeeeee, #9185ff, #ff6ce7); 
+    border-radius: 5px; 
+    animation: neon 1.5s linear infinite alternate; 
 }
 
 @keyframes neon {
     from {
-        filter: brightness(1.2); /* Adjust the brightness to control the neon effect */
+        filter: brightness(1.2); 
     }
     to {
         filter: brightness(1);
@@ -401,7 +401,7 @@ hr::before {
 
   align-items: center; /* Center icons vertically */
 
-  margin-top: 10px; /* Adjust margin as needed */
+  margin-top: 10px; 
 
   margin-left: 450px;
 
